@@ -65,6 +65,10 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MOTXWEKV
 
+[Parameter1]
+Name=ProjectEngineer
+Value=Eirik MS
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
