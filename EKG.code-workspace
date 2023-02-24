@@ -1,0 +1,26 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {},
+	"extensions": {
+		"recommendations": [
+			"james-yu.latex-workshop",
+			"tecosaur.latex-utilities",
+			"hediet.vscode-drawio",
+			"davidanson.vscode-markdownlint"
+		],
+		"disableExtensions": [
+			"TDT4102NTNU.tdt4102-tools", 
+			"TDT4102NTNU.tdt4102-templates", 
+			"tomoki1207.pdf"
+		],
+		"unwantedRecommendations": [
+			"TDT4102NTNU.tdt4102-tools",
+			"TDT4102NTNU.tdt4102-templates",
+			"tomoki1207.pdf"
+		]
+	}
+}

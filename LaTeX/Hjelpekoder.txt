@@ -1,0 +1,103 @@
+Implementere bilder:
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.6\textwidth]{skop} 
+  \caption{Inngang $v_1$ (blå kurve) og utgang $v_2$ (grønn).}
+  \label{fig:resultat}
+\end{figure}
+----------------------------------------------
+
+Bilder ved siden av hverandre:
+
+\begin{figure}[!h]
+    \centering
+    \begin{minipage}[c]{0.4\textwidth}
+        \centering
+        \includegraphics[width=1.1\textwidth]{latexmal_designnotat/Bilder/frekvensForUlin.jpg} 
+        \caption{Signalet til $v_1(t)$.}
+        \label{fig:sinusFrekvens}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[c]{0.4\textwidth}
+        \centering
+        \includegraphics[width=1.1\textwidth]{latexmal_designnotat/Bilder/signalEtterDiode.jpg} 
+        \caption{Signalet til $y(t)$.}
+        \label{fig:ulinFrekvens}
+    \end{minipage}
+\end{figure}
+
+--------------------------------------------------------------
+
+Referere til bilder:
+~\ref{fig:bilde}.
+
+----------------------------------------------
+
+Formler:
+
+\begin{equation}
+  \label{eq:formel}
+  x = \frac{-b \pm \sqrt{b^{2}-4ac}}{2a}
+\end{equation}
+------------------------------------------------
+
+Referere til formler:
+\ref{eq:formel}
+--------------------------------------------------
+
+Referere til seksjon:
+~\ref{sec:prinsipielllosning}
+
+-----------------------------------------------
+
+Bibliografi:
+
+%Bibliografi: Legg til flere elementer ved å legge til flere \bibitem:--------
+\phantomsection
+\addcontentsline{toc}{section}{Referanser}
+\begin{thebibliography}{99}
+
+\bibitem{bibelen}
+  Albert Einstein,
+  \emph{Elektronikkbibelen},
+  O Store Forlag,
+  1. utgave,
+  1930.
+
+\end{thebibliography}
+
+---------------------------------------------------
+
+Referere til bibliografi:
+~\cite[s. 1604]{bibelen}. 
+
+
+--------------------------------------------------------
+
+Tabell
+
+\begin{table}[htbp]
+  \centering
+  \caption{Verdier for mostander og kondensatorer som ble brukt i realisert krets. Nederst i tabellen finner en totalverdi av komponentene som ble brukt}
+  \begin{tabular}{|c|c|}
+    \hline\hline
+    $R_5$ & $C$ \\ \hline
+    \hline
+    $1\text{k}\Omega$ & $10\text{nF}$ \\
+    $330\Omega$ & $33\text{nF}$ \\
+    $33\Omega$ & $33\text{nF}$ \\
+    $33\Omega$ & $33\text{nF}$ \\
+    $10\Omega$ & $33\text{nF}$ \\
+    \hline\hline
+    $1680\Omega$ & $18.25\text{nF}$ \\
+    \hline\hline
+  \end{tabular}
+  \label{tab:motstandstabell}
+\end{table}
+
+--------------------------------------------------------------------
+
+Referere til tabell:
+
+\ref{tab:motstandstabell}
