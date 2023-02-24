@@ -1,8 +1,11 @@
+## The notat itself
+LaTeX\designnotat.pdf
+
 ## VS code files
 /.vscode
 
 ##Altium Designer files
-/Circuit/__Previews
+Circuit/EKG/__Previews
 *.PrjPCBStructure
 *.SchDocPreview
 *.PcbDocPreview

@@ -4,7 +4,7 @@
 
 The following structure should be kept in mind when working on this project.
 
-* ./Circuit: The circuit design files, witch is orginized in an Altium project. Altium is a paid software, available for dwonload [here](https://www.altium.com/downloads/altium-designer/) and a free license for students [here](https://www.altium.com/education/student-licenses).
+* ./Circuit: The circuit design files, witch is orginized in an Altium project. Altium is a paid software, available for dwonload [here](https://www.altium.com/downloads/altium-designer/) and a free license for students [here](https://www.altium.com/education/student-licenses). A simpler program is [CirciutMaker](https://www.altium.com/circuitmaker), which is free to use. The circuit design will be done in Altium, but the files will be exported to a format that can be opened in CircuitMaker.
 * ./Docs: Will contain all of the documents that is used as a reference for the project and will act as a knowledge base for the project.
 * ./LaTeX: Will contain all of the LaTeX files used to generate the documents in the Docs folder. Inside this folder is also the final report for the project. If this prodject ends up with several reports for different subjects, they will be placed in another folder in root.
 
