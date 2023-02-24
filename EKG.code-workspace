@@ -4,13 +4,92 @@
 			"path": "."
 		}
 	],
-	"settings": {},
+	"settings": {
+		//some nice global settings
+		"editor.insertSpaces": true,
+		"editor.wordWrap": "on",
+		"extensions.autoUpdate": true,
+		"extensions.ignoreRecommendations": false,
+
+		//settings for the todo tree extension
+		"todo-tree.tree.autoRefresh": true,
+		"todo-tree.filtering.ignoreGitSubmodules": true,
+		"todo-tree.regex.regexCaseSensitive": false,
+		"todo-tree.tree.expanded": true,
+		"todo-tree.regex.regex": "((//|#|<!--|;|/\\*|^|%|\\\\)\\s*($TAGS)\\{*|^\\s*- \\[ \\])",
+		"todo-tree.general.tags": [
+			"BUG",
+			"HACK",
+			"FIXME",
+			"TODO",
+			"README",
+			"NOTE",
+			"REVIEW",
+			"XXX",
+			"[ ]",
+			"[x]",
+			"todo",
+			"fixme",
+			"readme",
+			"note",
+			"review",
+		  ],
+		"todo-tree.highlights.customHighlight": {
+			"REVIEW": {
+				"icon": "eye"
+			},
+			"NOTE": {
+				"icon": "comment"
+			},
+			"HACK": {
+				"icon": "tools"
+			},
+			"FIXME": {
+				"icon": "flame"
+			},
+			"XXX": {
+				"icon": "x"
+			},
+			"[ ]": {
+				"icon": "issue-draft"
+			},
+			"[x]": {
+				"icon": "issue-closed"
+			},
+			"todo": {
+				"icon": "issue-opened"
+			},
+			"fixme": {
+				"icon": "flame"
+			},
+			"readme": {
+				"icon": "book"
+			},
+			"note": {
+				"icon": "comment"
+			},
+			"review": {
+				"icon": "eye"
+			},
+			"README": {
+				"icon": "book"
+			},
+		}
+		  
+		//settings for the latex workshop extension
+
+		  
+
+	},
 	"extensions": {
 		"recommendations": [
 			"james-yu.latex-workshop",
 			"tecosaur.latex-utilities",
 			"hediet.vscode-drawio",
-			"davidanson.vscode-markdownlint"
+			"davidanson.vscode-markdownlint",
+			"yzhang.markdown-all-in-one",
+			"Gruntfuggly.todo-tree",
+			"hnw.vscode-auto-open-markdown-preview"
 		],
 		"disableExtensions": [
 			"TDT4102NTNU.tdt4102-tools", 
