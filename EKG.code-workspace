@@ -1,3 +1,8 @@
+
+// This is the workspace file which is used to open the folder in VS Code, 
+// and is used to sett global settings for the workspace. 
+// Changes to this file will be applied to everyone who opens the workspace.
+
 {
 	"folders": [
 		{
