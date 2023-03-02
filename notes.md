@@ -9,7 +9,7 @@ NOTE Her kan man skrive ned notater eller andre ting, får se om folk bruker den
 
 # Linn 
 Her skal jeg skrive litt om meg selv og ha mine egene notater.  
-TODO: Skrive litt om meg selv  
+TODO: Linn, Skrive litt om meg selv  
 TODO: Bli kjent med oppsettet  
 
 # Ole
